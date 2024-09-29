@@ -1,7 +1,7 @@
 streamlit
-torch==2.0.1+cpu  # Ensure compatibility with your platform, or use +cu116 for GPU
-torchvision==0.15.2+cpu  # Ensure compatibility, or use +cu116 for GPU
+torch==2.4.1  # Latest version compatible with Python 3.12
+torchvision==0.19.1  # Compatible with torch 2.4.1
 opencv-python-headless==4.8.0.74  # Compatible version for Python 3.12
-numpy>=1.22  # Avoid versions with restricted Python compatibility
+numpy>=1.22
 Pillow==10.4.0
 tensorflow==2.17.0  # Compatible with Python 3.12
